@@ -1,13 +1,12 @@
 <div class="content">
   <app-header [title]="title">
-
   </app-header>
   <div class="container">
     <app-main>
-
     </app-main>
-    <app-footer>
-
+    <mat-divider>
+    </mat-divider>
+    <app-footer [username]="basicData.username" [email]="basicData.email">
     </app-footer>
   </div>
 </div>

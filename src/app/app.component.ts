@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { basicData } from './constants/basicData';
 
 @Component({
   selector: 'app-root',
@@ -8,4 +9,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'CeAlCuadrado Networks';
   constructionText = 'En construcción';
+  basicData: any = basicData;
 }
