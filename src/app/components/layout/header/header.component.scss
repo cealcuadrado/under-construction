@@ -1,0 +1,13 @@
+@import '../../../app.component.scss';
+
+img {
+  width: 30px;
+  height: 30px;
+}
+
+mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: $header-color;
+}

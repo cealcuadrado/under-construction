@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { basicData } from './constants/basicData';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'under-construction';
+  title = 'CeAlCuadrado Networks';
+  constructionText = 'En construcción';
+  basicData: any = basicData;
 }
